@@ -1,0 +1,182 @@
+
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.video-background {
+  position: background;
+  width: 100%
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caption {
+  
+  top: 38%;
+  width: 100%
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem 1.2rem black;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+
+.caption h3{
+  font-size: 2reml
+  text-shadow:  .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  color: white;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 1.5rem 2.2rem;
+  padding-bottom: .6rem;
+}
+
+.display-4 {
+  font-size: 160%;
+}
+
+.narrow {
+  width:  75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+
+.offset:before{
+  height: 3.5rem;
+  margin-top: -4rem;
+  content: "";
+  display: black;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+/*============= COURSE SECTION =============*/
+
+.col-md-8 {
+  margin: 2rem auto 8rem;
+  padding-top: 2rem;
+}
+.col-md-8 h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*<!-- jumbotron -->*/
+.jumbotron {
+  border-radius: 0;
+  padding: 3rem 0 2rem;
+}
+h3.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1EBBA3;
+  margin: 0 auto 2rem;
+}
+
+
+/*photogrid*/
+
+.photogrid img {
+  max-width: 100%;
+  transition: transform .5 ease;
+}
+.row.no-padding [class*=col-]{
+  padding: 0;
+}
+.photogrid img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+.photogrid {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .caption h1 {
+  font-size: 3rem;
+  
+  letter-spacing: .2rem;
+ 
+  padding-bottom: 1rem;
+  color: white;
+}
+
+
+.caption h3{
+  font-size: 2reml
+  
+  padding-bottom: 1.6rem;
+  color: white;
+}
+
+.btn-lg {
+ 
+  font-size: 1.1rem;
+  padding: .6rem 1.3rem;
+}
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
